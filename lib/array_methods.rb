@@ -11,6 +11,15 @@ end
 
 def find_max_value(array)
   # Add your solution here
+  counter = 0
+  max = 0
+  while array[counter] do
+    if array[counter] > array[counter+1]
+      max = array[counter]
+    else max = array[counter]
+      counter += 1
+  end
+  return max
   
 end
 
