@@ -30,7 +30,7 @@ def find_min_value(array)
   # Add your solution here
   counter = 0
   min = 0
-  array.each{
+  array.each{|item|
     
   }
   
