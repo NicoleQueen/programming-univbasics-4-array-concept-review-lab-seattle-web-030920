@@ -32,6 +32,7 @@ def find_min_value(array)
   min = 0
   array.each{|item|
     
+    
   }
   
   return min
