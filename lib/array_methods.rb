@@ -12,16 +12,14 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  counter = 0
-  max = 0
-  while array[counter] do
-    if array[counter] > array[counter+1]
-      max = array[counter]
-    else max = array[counter+1]
-      
+  
+  max = marry[0]
+  array.length.times { |index|
+    if array[index] > max
+      max = array[index]
     end
-    counter +=1
-  end
+  }
+  
   return max
   
 end
