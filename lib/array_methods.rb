@@ -13,14 +13,14 @@ end
 def find_max_value(array)
   # Add your solution here
   
-  max = marry[0]
+  max = array[0]
   array.length.times { |index|
     if array[index] > max
       max = array[index]
     end
   }
   
-  return max
+   max
   
 end
 
